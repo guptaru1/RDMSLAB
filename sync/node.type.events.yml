@@ -1,0 +1,17 @@
+uuid: 44f312c3-85d4-4dbd-b45b-88327de994da
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Events
+type: events
+description: 'This is where we track all the difference conference trainings'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

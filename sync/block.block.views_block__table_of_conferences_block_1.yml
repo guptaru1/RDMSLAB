@@ -1,0 +1,24 @@
+uuid: 6f713061-b8a1-4a61-9665-d74f1d5b751a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.table_of_conferences
+  module:
+    - views
+  theme:
+    - showcase_lite
+id: views_block__table_of_conferences_block_1
+theme: showcase_lite
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:table_of_conferences-block_1'
+settings:
+  id: 'views_block:table_of_conferences-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

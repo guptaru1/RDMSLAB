@@ -1,0 +1,25 @@
+uuid: 94093d96-fd1a-4605-8a7a-cbc920f65ceb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3eb2fcec-dd6a-423d-9a00-d78c3ed02703'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: slideshowgallery
+theme: showcase_lite
+region: highlighted_top
+weight: -11
+provider: null
+plugin: 'block_content:3eb2fcec-dd6a-423d-9a00-d78c3ed02703'
+settings:
+  id: 'block_content:3eb2fcec-dd6a-423d-9a00-d78c3ed02703'
+  label: 'Slideshow Gallery'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

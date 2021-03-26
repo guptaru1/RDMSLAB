@@ -1,0 +1,22 @@
+uuid: d597b84e-bf05-4f96-8b40-0b59452b687e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: W6qer5LIm0ehwHZX6sOoVhc6oMbGTHNUHRKnucWtbnU
+id: showcase_lite_messages
+theme: showcase_lite
+region: system_messages
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

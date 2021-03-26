@@ -1,0 +1,21 @@
+uuid: 2e07eb61-3e94-42a8-9331-858e58d2dba2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_difficulty_level
+    - node.type.events
+  module:
+    - text
+id: node.events.field_difficulty_level
+field_name: field_difficulty_level
+entity_type: node
+bundle: events
+label: Difficulty-Level
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

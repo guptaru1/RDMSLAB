@@ -1,0 +1,25 @@
+uuid: 170c93a4-b6f9-4ae6-b45e-333e28b6c60e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9041caac-7b41-4fe6-9328-6e6f9f2aac31'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: ourplatform
+theme: showcase_lite
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:9041caac-7b41-4fe6-9328-6e6f9f2aac31'
+settings:
+  id: 'block_content:9041caac-7b41-4fe6-9328-6e6f9f2aac31'
+  label: 'Our Platform'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

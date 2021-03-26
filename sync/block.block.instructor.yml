@@ -1,0 +1,25 @@
+uuid: ca1b5c47-93b3-4820-89ca-abbf3f6af5d0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69bfe048-a568-4c91-8bec-3046b6391988'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: instructor
+theme: showcase_lite
+region: sub_featured
+weight: 0
+provider: null
+plugin: 'block_content:69bfe048-a568-4c91-8bec-3046b6391988'
+settings:
+  id: 'block_content:69bfe048-a568-4c91-8bec-3046b6391988'
+  label: Instructor
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

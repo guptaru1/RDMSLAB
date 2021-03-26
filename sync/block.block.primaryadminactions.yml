@@ -1,0 +1,20 @@
+uuid: 22f1174e-74aa-4451-ae71-edaafa94ab73
+langcode: en
+status: true
+dependencies:
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: Wj8P9ApeYjgPDu7gvHCcSRVtvjv__I7h99rz0hO1eC8
+id: primaryadminactions
+theme: showcase_lite
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

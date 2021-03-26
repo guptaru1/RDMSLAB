@@ -1,0 +1,21 @@
+uuid: 06585fb2-fa33-4742-b135-90707110ccf3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_instructor
+field_name: field_instructor
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

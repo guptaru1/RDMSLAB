@@ -1,0 +1,32 @@
+uuid: 3ef7a628-4d40-47e5-b1de-299ad149881d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slideshow
+    - field.field.block_content.slideshow.field_image_instructor
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.slideshow.default
+targetEntityType: block_content
+bundle: slideshow
+mode: default
+content:
+  field_image_instructor:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

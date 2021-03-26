@@ -1,0 +1,7 @@
+uuid: dd46c11b-2afb-48e4-8780-a780fc9ee863
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_optimized_images
+label: 'Mobile-optimized images'
+processors: {  }

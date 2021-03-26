@@ -1,0 +1,20 @@
+uuid: 37dee7c3-ca7b-4f06-989f-c8ba5627f226
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_schedule_on_nov_
+field_name: field_schedule_on_nov_
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 387d7686-57fe-437c-922b-464877d044bf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a40d9d06-8adf-4f17-b89c-877888eccf57'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: joinus
+theme: showcase_lite
+region: highlighted
+weight: -10
+provider: null
+plugin: 'block_content:a40d9d06-8adf-4f17-b89c-877888eccf57'
+settings:
+  id: 'block_content:a40d9d06-8adf-4f17-b89c-877888eccf57'
+  label: 'Join Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

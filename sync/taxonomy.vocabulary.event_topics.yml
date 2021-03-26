@@ -1,0 +1,8 @@
+uuid: 76e0852d-4429-401c-a056-52e116cd64ec
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event topics'
+vid: event_topics
+description: 'This is where we track topics for the conferences'
+weight: 0

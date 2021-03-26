@@ -1,0 +1,24 @@
+uuid: 3c1e8b11-a53f-42fa-9159-3a38ecb7adfc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: drop_down
+label: Drop-down
+code: "function dropDown() {\n  var buttonclicked = document.activeElement.getAttribute('value');\n  var x;\n  var button;\n  if (buttonclicked == \"1\"){\n    x = document.getElementById(\"myDIV\");\n    button = document.getElementById(\"myButton1\");\n  }\n   if (buttonclicked == \"2\"){\n    x = document.getElementById(\"vds\");\n    button = document.getElementById(\"myButton2\");\n  }\n  if (buttonclicked == \"3\"){\n    x = document.getElementById(\"tds\");\n    button = document.getElementById(\"myButton3\");\n  }\n  if (buttonclicked == \"4\"){\n    x = document.getElementById(\"seir\");\n    button = document.getElementById(\"myButton4\");\n  }\n  if (buttonclicked == \"5\"){\n    x = document.getElementById(\"textdata\");\n    button = document.getElementById(\"myButton5\");\n  }\n  if (buttonclicked == \"6\"){\n    x = document.getElementById(\"ml\");\n    button = document.getElementById(\"myButton6\");\n  }\n  \n  \n  if (x.style.display === \"none\") {\n    x.style.display = \"block\";\n    \n    button.innerHTML =\"-\";\n    x.classList.toggle('fade');\n  } else {\n  \n    x.style.display = \"none\";\n    \n    button.innerHTML =\"+\";\n    \n  }\n} \n\n\nvar slideIndex = 1;\nshowSlides(slideIndex);\n\n// Next/previous controls\nfunction plusSlides(n) {\n  showSlides(slideIndex += n);\n}\n\n// Thumbnail image controls\nfunction currentSlide(n) {\n  showSlides(slideIndex = n);\n}\n\nvar slideIndex = 0;\ncarousel();\n\nfunction carousel() {\n  var i;\n  var x = document.getElementsByClassName(\"mySlides\");\n  for (i = 0; i < x.length; i++) {\n    x[i].style.display = \"none\";\n  }\n  slideIndex++;\n  if (slideIndex > x.length) {slideIndex = 1}\n  x[slideIndex-1].style.display = \"block\";\n  setTimeout(carousel, 5000); // Change image every 2 seconds\n}\n\nfunction showSlides(n) {\n  var i;\n  var slides = document.getElementsByClassName(\"mySlides\");\n  var dots = document.getElementsByClassName(\"demo\");\n\n  if (n > slides.length) {slideIndex = 1}\n  if (n < 1) {slideIndex = slides.length}\n  for (i = 0; i < slides.length; i++) {\n    slides[i].style.display = \"none\";\n  }\n  for (i = 0; i < dots.length; i++) {\n    dots[i].className = dots[i].className.replace(\" active\", \"\");\n  }\n  slides[slideIndex-1].style.display = \"block\";\n  dots[slideIndex-1].className += \" active\";\n  \n} \n\n"
+conditions_require_all: true
+conditions:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+contexts: {  }
+header: false
+preprocess: true
+jquery: true
+noscript: ''
+noscriptRegion: {  }

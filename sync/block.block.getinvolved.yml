@@ -1,0 +1,25 @@
+uuid: 3e1d057f-3d37-49db-b04e-2479b5ab695d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7025adfe-25fc-4950-8eaa-61af29c8a6c9'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: getinvolved
+theme: showcase_lite
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:7025adfe-25fc-4950-8eaa-61af29c8a6c9'
+settings:
+  id: 'block_content:7025adfe-25fc-4950-8eaa-61af29c8a6c9'
+  label: 'Get Involved'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

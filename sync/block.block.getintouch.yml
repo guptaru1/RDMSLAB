@@ -1,0 +1,25 @@
+uuid: 57a6a2f4-2601-4cb5-936b-146d6eb374e7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c010143f-e4ff-4e08-bb06-512c846ea00b'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: getintouch
+theme: showcase_lite
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:c010143f-e4ff-4e08-bb06-512c846ea00b'
+settings:
+  id: 'block_content:c010143f-e4ff-4e08-bb06-512c846ea00b'
+  label: 'Get In Touch'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

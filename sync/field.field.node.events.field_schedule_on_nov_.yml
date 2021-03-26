@@ -1,0 +1,21 @@
+uuid: 570f8746-2441-4d5d-86af-122da752eef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_schedule_on_nov_
+    - node.type.events
+  module:
+    - text
+id: node.events.field_schedule_on_nov_
+field_name: field_schedule_on_nov_
+entity_type: node
+bundle: events
+label: 'Schedule on Nov 1'
+description: 'Write timings'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

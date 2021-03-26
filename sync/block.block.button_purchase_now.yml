@@ -1,0 +1,25 @@
+uuid: 289a746a-9e19-42d8-ab74-e31b6dfca63e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:31ec0b9d-40c8-493b-ad3e-fed509d5d0e6'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: button_purchase_now
+theme: showcase_lite
+region: featured
+weight: -6
+provider: null
+plugin: 'block_content:31ec0b9d-40c8-493b-ad3e-fed509d5d0e6'
+settings:
+  id: 'block_content:31ec0b9d-40c8-493b-ad3e-fed509d5d0e6'
+  label: Button_purchase_now
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

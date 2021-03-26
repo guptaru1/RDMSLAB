@@ -1,0 +1,24 @@
+uuid: 3c2c43e5-c738-4e51-a58a-86d7a06f774f
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.slick_instructors
+  module:
+    - views
+  theme:
+    - showcase_lite
+id: views_block__slick_instructors_block_1
+theme: showcase_lite
+region: highlighted_top
+weight: -10
+provider: null
+plugin: 'views_block:slick_instructors-block_1'
+settings:
+  id: 'views_block:slick_instructors-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 1ebbdf3d-1bdd-459e-84ab-d91f3acee63a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instructor
+    - node.type.events
+id: node.events.field_instructor
+field_name: field_instructor
+entity_type: node
+bundle: events
+label: Instructor
+description: 'Add the name of the instructor'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

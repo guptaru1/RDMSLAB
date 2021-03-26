@@ -1,0 +1,20 @@
+uuid: ff9ab74d-1e7a-4c7f-876b-b97a61584ec0
+langcode: en
+status: false
+dependencies:
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: j3i6hwOJc5B5H3F4WVhGCSTFmQNk7EqApIguw3b4mXc
+id: showcase_lite_page_title
+theme: showcase_lite
+region: system_messages
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
